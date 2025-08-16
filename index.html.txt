@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T. Nanda Kumar - Software Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">TNK</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">T. Nanda Kumar</span>
+                </h1>
+                <p class="hero-subtitle">Software Developer & Electronics Engineer</p>
+                <p class="hero-description">
+                    Motivated engineering graduate passionate about building solutions that solve real-world problems. 
+                    Experienced in Python, SQL, and cloud technologies with a focus on scalable applications.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-img">
+                        <img src="images/profile.jpg" alt="T. Nanda Kumar" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a motivated and detail-oriented engineering graduate with a strong interest in software development. 
+                        I enjoy building solutions that solve real-world problems and have experience working with Python, SQL, and Excel. 
+                        I'm passionate about writing clean, efficient code and continuously learning new technologies.
+                    </p>
+                    <p>
+                        I'm looking for a Software Developer role where I can grow, collaborate with a great team, 
+                        and contribute to building impactful and scalable applications. My background in Electronics and Communication Engineering 
+                        gives me a unique perspective on both hardware and software integration.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>2025</h3>
+                            <p>B.Tech Graduate</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Programming Languages</p>
+                        </div>
+                        <div class="stat">
+                            <h3>2+</h3>
+                            <p>Major Projects</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-img-container">
+                        <img src="images/profile.jpg" alt="T. Nanda Kumar" class="about-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">SQL</span>
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">Embedded C</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Concepts & Databases</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">OOPS</span>
+                        <span class="skill-item">DBMS</span>
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">Data Analysis</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Cloud</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Microsoft Excel</span>
+                        <span class="skill-item">Microsoft Azure</span>
+                        <span class="skill-item">Azure CLI</span>
+                        <span class="skill-item">Arduino IDE</span>
+                        <span class="skill-item">DevOps</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-parking"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Smart Multi-Tiered Parking Management System</h3>
+                        <p>Designed and built a real-time parking availability monitoring system using Arduino, IR sensors, servo motors, and an LCD display for a two-floor parking system.</p>
+                        <div class="project-tech">
+                            <span>Arduino</span>
+                            <span>Embedded C</span>
+                            <span>IR Sensors</span>
+                            <span>Servo Motors</span>
+                            <span>LCD Display</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-info-circle"></i> Details
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Azure VM Scale Sets Deployment & Configuration</h3>
+                        <p>Deployed and configured Azure Virtual Machine Scale Sets (VMSS) to ensure high availability and auto-scaling of virtual machines with DevOps-style release processes.</p>
+                        <div class="project-tech">
+                            <span>Microsoft Azure</span>
+                            <span>Azure CLI</span>
+                            <span>VMSS</span>
+                            <span>Auto-scaling</span>
+                            <span>DevOps</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-info-circle"></i> Details
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-microsoft"></i> Azure
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="education-content">
+                <div class="education-timeline">
+                    <div class="education-item">
+                        <div class="education-year">2025</div>
+                        <div class="education-details">
+                            <h3>B.Tech in Electronics and Communication Engineering</h3>
+                            <p class="institution">Vignan Institute of Technology and Science</p>
+                            <p class="description">Specialized in electronics, communication systems, and embedded programming with focus on hardware-software integration.</p>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <div class="education-year">2021</div>
+                        <div class="education-details">
+                            <h3>Intermediate Education</h3>
+                            <p class="institution">Narayana Junior College</p>
+                            <p class="description">Completed intermediate education with focus on Mathematics, Physics, and Chemistry.</p>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <div class="education-year">2019</div>
+                        <div class="education-details">
+                            <h3>Secondary School Certificate (SSC)</h3>
+                            <p class="institution">Lord's High School</p>
+                            <p class="description">Completed secondary education with strong foundation in core subjects.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="certifications">
+                    <h3>Certifications</h3>
+                    <div class="cert-grid">
+                        <div class="cert-item">
+                            <div class="cert-icon">
+                                <i class="fab fa-microsoft"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>Microsoft Azure Fundamentals (AZ-900)</h4>
+                                <p>Microsoft</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>Java (Basic)</h4>
+                                <p>HackerRank</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>nandathirunagari.9@gmail.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 91822 17194</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>India</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/nandakumar27" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 T. Nanda Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
